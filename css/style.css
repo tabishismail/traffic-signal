@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+.bg{
+    width: 100%;
+}
+.signal{
+    position: absolute;
+    display: flex;
+    top: 2px;
+}
+.heading{
+    position: absolute;
+    right: 250px;
+    top: 20px;
+}
+h1{
+    color: indigo;
+    font-size: 50px;
+    font-weight: bold;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    right: 150px;
+}
+a{
+    font-size: large;
+    color: white;
+    padding: 0 20px;
+    font-weight: bold;
+}
+.red{
+    color: rgb(114, 8, 8);
+    
+}
+.red:hover{
+    color: red;
+    
+}
+.yellow{
+    color: rgb(75, 75, 5);
+}
+.yellow:hover{
+    color: yellow;
+}
+.green{
+    color: rgb(1, 90, 1);
+}
+.green:hover{
+    color: rgb(8, 255, 8);
+}
