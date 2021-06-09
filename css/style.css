@@ -3,20 +3,18 @@ body{
 }
 .container{
     margin: 0 auto;
-    position: relative;
 }
 .bg{
-    width: 100%;
+    width: 900px;
     position: relative;
 }
 .signal{
     position: absolute;
-    display: flex;
     top: 2px;
 }
 .heading{
     position: absolute;
-    right: 250px;
+    right: 10%;
     top: 20px;
 }
 h1{
@@ -28,7 +26,7 @@ h1{
     position: absolute;
     display: flex;
     bottom: 10px;
-    right: 150px;
+    right: 25%;
 }
 a{
     font-size: large;
